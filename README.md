@@ -1,5 +1,6 @@
 # Next JS Starter Kit
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb923e2-1e5a-40d8-8438-1e09da0d1efe/deploy-status)](https://nextjs-starter-kit-storybook.netlify.app/)
 ![version](https://img.shields.io/github/package-json/v/sex-request/nextjs-starter-kit)
 ![License MIT](https://img.shields.io/github/license/sex-request/nextjs-starter-kit?style=plat)
 
