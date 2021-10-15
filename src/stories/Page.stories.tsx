@@ -2,7 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import { Page } from './Page';
-import * as HeaderStories from './Header.stories';
+import * as HeaderStories from './Header.stories.mdx';
 
 export default {
   title: 'Example/Page',

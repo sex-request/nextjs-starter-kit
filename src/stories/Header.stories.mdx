@@ -1,0 +1,16 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import { Header } from './Header';
+
+<Meta
+  title="Example/Header"
+  component={Header}
+/>
+
+<Story name="LoggedIn" args={{ user: {} }}>
+  {((args) => <Header {...args} />).bind({})}
+</Story>
+
+<Story name="LoggedOut" args={{}}>
+  {((args) => <Header {...args} />).bind({})}
+</Story>

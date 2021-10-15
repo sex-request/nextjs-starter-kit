@@ -1,0 +1,38 @@
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
+import { Button } from 'src/stories/Button';
+
+<Meta
+  title="Example/Button"
+  component={Button}
+  argTypes={{
+    backgroundColor: { control: 'color' },
+  }}
+/>
+
+<Story name="Primary" args={{
+  primary: true,
+  label: 'Button',
+}}>
+  {((args) => <Button {...args} />).bind({})}
+</Story>
+
+<Story name="Secondary" args={{
+  label: 'Button',
+}}>
+  {((args) => <Button {...args} />).bind({})}
+</Story>
+
+<Story name="Large" args={{
+  size: 'large',
+  label: 'Button',
+}}>
+  {((args) => <Button {...args} />).bind({})}
+</Story>
+
+<Story name="Small" args={{
+  size: 'small',
+  label: 'Button',
+}}>
+  {((args) => <Button {...args} />).bind({})}
+</Story>

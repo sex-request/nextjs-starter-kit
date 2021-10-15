@@ -37,7 +37,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@babel/core", "npm:7.15.8"],
             ["@babel/runtime", "npm:7.15.4"],
+            ["@mdx-js/loader", "npm:1.6.22"],
             ["@mdx-js/react", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:1.6.22"],
+            ["@next/mdx", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:11.1.2"],
             ["@storybook/addon-actions", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:6.3.12"],
             ["@storybook/addon-docs", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:6.3.12"],
             ["@storybook/addon-essentials", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:6.3.12"],
@@ -4867,6 +4869,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@next/eslint-plugin-next", "npm:11.1.2"],
             ["glob", "npm:7.1.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@next/mdx", [
+        ["npm:11.1.2", {
+          "packageLocation": "./.yarn/cache/@next-mdx-npm-11.1.2-96823ff793-2fb2bf5066.zip/node_modules/@next/mdx/",
+          "packageDependencies": [
+            ["@next/mdx", "npm:11.1.2"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:11.1.2", {
+          "packageLocation": "./.yarn/__virtual__/@next-mdx-virtual-46c3972c68/0/cache/@next-mdx-npm-11.1.2-96823ff793-2fb2bf5066.zip/node_modules/@next/mdx/",
+          "packageDependencies": [
+            ["@next/mdx", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:11.1.2"],
+            ["@mdx-js/loader", "npm:1.6.22"],
+            ["@mdx-js/react", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:1.6.22"],
+            ["@types/mdx-js__loader", null],
+            ["@types/mdx-js__react", "npm:1.5.4"]
+          ],
+          "packagePeers": [
+            "@mdx-js/loader",
+            "@mdx-js/react",
+            "@types/mdx-js__loader",
+            "@types/mdx-js__react"
           ],
           "linkType": "HARD",
         }]
@@ -17466,7 +17494,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nextjs-starter-kit", "workspace:."],
             ["@babel/core", "npm:7.15.8"],
             ["@babel/runtime", "npm:7.15.4"],
+            ["@mdx-js/loader", "npm:1.6.22"],
             ["@mdx-js/react", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:1.6.22"],
+            ["@next/mdx", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:11.1.2"],
             ["@storybook/addon-actions", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:6.3.12"],
             ["@storybook/addon-docs", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:6.3.12"],
             ["@storybook/addon-essentials", "virtual:a094df9e333b86084883a51a011480378c97d014031724bf7bceb05b101f2196ccc17c29e26238d811bcfa00777f93664a3fc96d436c9c43772788e7ac257fc8#npm:6.3.12"],
