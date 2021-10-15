@@ -37,7 +37,7 @@ module.exports = {
     '<rootDir>/node_modules/',
     '<rootDir>/.yarn/',
     '<rootDir>/.next/',
-    '<rootDir>/cypress/'
+    '<rootDir>/cypress/',
   ],
   transform: {
     // Use babel-jest to transpile tests with the next/babel preset
@@ -67,6 +67,7 @@ module.exports = {
     '.config.',
     'coverage',
     '_app',
+    '/stories/',
   ],
   coverageThreshold: {
     global: {
