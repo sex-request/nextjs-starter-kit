@@ -53,3 +53,6 @@ yarn-error.log*
 !/cypress/integration
 !/cypress/plugins
 !/cypress/support
+
+# storybook
+/storybook-static
