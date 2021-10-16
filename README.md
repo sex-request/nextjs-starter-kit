@@ -1,6 +1,5 @@
 # NextJS Starter Kit
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb923e2-1e5a-40d8-8438-1e09da0d1efe/deploy-status)](https://nextjs-starter-kit-storybook.netlify.app/?path=/docs/example-introduction--page)
 ![version](https://img.shields.io/github/package-json/v/sex-request/nextjs-starter-kit)
 ![License MIT](https://img.shields.io/github/license/sex-request/nextjs-starter-kit?style=plat)
 
@@ -11,6 +10,18 @@
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+---
+
+![Repo Size](https://img.shields.io/github/repo-size/sex-request/nextjs-starter-kit)
+![Stars](https://img.shields.io/github/stars/sex-request/nextjs-starter-kit?style=social)
+
+[![Coverage](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/coverage.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/coverage.yaml)
+[![E2E](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/e2e.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/e2e.yaml)
+[![Deploy NextJS](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-nextjs.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-nextjs.yaml)
+[![Deploy Storybook](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-storybook.yaml/badge.svg)](https://github.com/sex-request/nextjs-starter-kit/actions/workflows/deploy-storybook.yaml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb923e2-1e5a-40d8-8438-1e09da0d1efe/deploy-status)](https://nextjs-starter-kit-storybook.netlify.app/?path=/docs/example-introduction--page)
 
 This setting used by [This Repository](https://github.com/sex-request/frontend)
 
