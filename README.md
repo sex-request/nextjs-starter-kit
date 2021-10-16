@@ -24,8 +24,11 @@ This setting used by [This Repository](https://github.com/sex-request/frontend)
 - [Cypress](https://www.cypress.io/)
 - [ESLint](https://eslint.org/) with [airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript) rules
 - [Github Actions](https://github.com/features/actions) (Coverage, E2E, Deploy gh-pages and storybook)
+- Using [Husky](https://typicode.github.io/husky/#/)
+  - Auto update patch version before commit
+  - Check Lint, Coverage, E2E before push
 
-## [ !Important ] Must Change Here
+## [ IMPORTANT ] Must Change Here
 
 - `package.json` line 2 - project name
 - `next.config.js` line 4 - production url
@@ -33,3 +36,55 @@ This setting used by [This Repository](https://github.com/sex-request/frontend)
 - `/public/manifest.json` line 5~9 - application information
 - `/pages/_document.tsx` line 10 - lang
 - `/pages/_app.tsx` line 17, 20 - description, title
+
+## Usage
+
+### Install
+
+```bash
+yarn && yarn postinstall
+```
+
+### Running Dev Server
+
+```bash
+yarn dev
+```
+
+### Lint
+
+```bash
+yarn lint
+```
+
+### Unit Test
+
+```bash
+yarn test
+yarn test:watch
+yarn test:coverage
+```
+
+### E2E Test
+
+```bash
+yarn cypress
+yarn cypress:headless
+yarn e2e
+yarn e2e:headless
+```
+
+### Storybook
+
+```bash
+yarn storybook
+yarn build-storybook
+```
+
+### Build and Export
+
+```bash
+yarn build
+yarn start
+yarn export
+```
