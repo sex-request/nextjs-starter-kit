@@ -25,6 +25,12 @@
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/runtime": "^7.15.4",
