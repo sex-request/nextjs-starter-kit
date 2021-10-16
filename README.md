@@ -1,6 +1,6 @@
-# Next JS Starter Kit
+# NextJS Starter Kit
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb923e2-1e5a-40d8-8438-1e09da0d1efe/deploy-status)](https://nextjs-starter-kit-storybook.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3cb923e2-1e5a-40d8-8438-1e09da0d1efe/deploy-status)](https://nextjs-starter-kit-storybook.netlify.app/?path=/docs/example-introduction--page)
 ![version](https://img.shields.io/github/package-json/v/sex-request/nextjs-starter-kit)
 ![License MIT](https://img.shields.io/github/license/sex-request/nextjs-starter-kit?style=plat)
 
@@ -11,3 +11,25 @@
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+
+This setting used by [This Repository](https://github.com/sex-request/frontend)
+
+## Default Settings
+
+- [Yarn2 with PnP](https://yarnpkg.com/)
+- [NextJS](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/)
+- Enable [MDX](https://mdxjs.com/)
+- [Storybook on Webpack5](https://storybook.js.org/blog/storybook-for-webpack-5/) with [Sass](https://sass-lang.com/) (Using [@storybook/preset-scss](https://github.com/storybookjs/presets/tree/master/packages/preset-scss))
+- [Jest](https://jestjs.io/) (coverage 100%)
+- [Cypress](https://www.cypress.io/)
+- [ESLint](https://eslint.org/) with [airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript) rules
+- [Github Actions](https://github.com/features/actions) (Coverage, E2E, Deploy gh-pages and storybook)
+
+## [ !Important ] Must Change Here
+
+- `package.json` line 2 - project name
+- `next.config.js` line 4 - production url
+- `/public/favicon.ico` and `/public/icon-*.png`
+- `/public/manifest.json` line 5~9 - application information
+- `/pages/_document.tsx` line 10 - lang
+- `/pages/_app.tsx` line 17, 20 - description, title
