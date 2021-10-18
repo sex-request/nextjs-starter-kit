@@ -31,6 +31,10 @@ This setting used by [This Repository](https://github.com/sex-request/frontend)
 - [NextJS](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/)
 - Enable [MDX](https://mdxjs.com/)
 - [Storybook on Webpack5](https://storybook.js.org/blog/storybook-for-webpack-5/) with [Sass](https://sass-lang.com/) (Using [@storybook/preset-scss](https://github.com/storybookjs/presets/tree/master/packages/preset-scss))
+  - If you load in `/public` directory's image, for example:
+    - If You want `/public/logo.png`
+    - Then you use `/logo.png`
+    - example: `<Image src="/logo.png" alt="alt" width={30} height={30} />`
 - [Jest](https://jestjs.io/) (coverage 100%)
 - [Cypress](https://www.cypress.io/)
 - [ESLint](https://eslint.org/) with [airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript) rules
