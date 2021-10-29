@@ -46,7 +46,7 @@ This setting used by [This Repository](https://github.com/sex-request/frontend)
 ## [ IMPORTANT ] Must Change Here
 
 - `package.json` line 2 - project name
-- `next.config.js` line 4 - production url
+- `next.config.js` line 4, 5 - production url and path
 - `/public/favicon.ico` and `/public/icon-*.png`
 - `/public/manifest.json` line 5~9 - application information
 - `/pages/_document.tsx` line 10 - lang
