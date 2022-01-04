@@ -52,7 +52,7 @@
         "tsx": "never"
       }
    ],
-    "react/jsx-pascal-case": "off", // for Korean
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "jsx-a11y/anchor-is-valid": "off"
   }
 }
